@@ -1,0 +1,68 @@
+.searchlist li a{
+    color: white;
+    display: flex;
+
+}
+.searchlist ul{
+    /* text-align: center; */
+}
+.searchlist li{
+    width: 90%;
+}
+.searchlist img{
+    min-width: 7vw;
+    margin-left: 10px;
+
+}
+.searchbar{
+    text-align: -webkit-left;
+
+}
+/* Add this to your CSS file */
+.release-date {
+    font-style: italic;
+    color: gray;
+  }
+  
+.searchlist{
+    position: absolute;
+    background-color: #000000da;
+    width: 20%;
+    /* left: 0; */
+    /* top: 0; */
+    /* overflow-y: scroll; */
+    /* width: 100%; */
+}
+.searchbar button svg {
+    color: rgb(255, 255, 255);
+}
+/* .searchbar button svg{
+    margin-right: 16px;
+    cursor: pointer;
+} */
+.searchbar button{
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+}
+.searchbar input[type="text"] {
+    border-radius: 8px; /* Adding round corners */
+    border: 1.5px solid gray;
+    padding: 8px; /* Adding some padding */
+    background-color: rgba(255, 255, 255, 0.311);
+    color: rgb(0, 0, 0);
+    /* Add any other styles you want */
+  }
+  .searchbar input[type="text"]::placeholder {
+    color: rgba(0, 0, 0, 0.414); /* Set the placeholder color to black */
+  }
+  /* Remove the default outline */
+.searchbar input[type="text"]:focus {
+    outline: none;
+  }
+  @media only screen and (max-width: 550px){
+    .searchbar input{
+        width: 100px;
+        margin-right: 10px;
+    }
+  }

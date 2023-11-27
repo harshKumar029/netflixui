@@ -1,0 +1,48 @@
+.netflix-footer {
+    background-color: #000;
+    color: rgba(255,255,255,0.7); 
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-top: solid rgb(35,35,35);
+    border-width: 8px;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  h4 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+  
+  /* Add your own styles for links, hover effects, and additional styling as needed. */
+  

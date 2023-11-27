@@ -1,0 +1,56 @@
+.watchev{
+    display: flex;
+    justify-content: center;
+    /* background-color: #000000; */
+    position: relative;
+    /* top: -150px; */
+    padding-top: 80px;
+    padding-bottom: 60px;
+    border-top: solid rgb(35,35,35);
+    border-width: 8px;
+}
+.watchevimg{
+    text-align: center;
+    position: relative;
+    
+}
+.watchevimg img{
+    width: 90%;
+    /* z-index: 1; */
+
+}
+.watchev-content{
+    z-index: 1;
+    align-self: center;
+}
+.watchev-content h2{
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.watchev-content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+    margin-top: 1rem;
+}
+.watchevimg video{
+ 
+    top: 3rem;
+    /* right: 350px; */
+    position: absolute;
+    width:55%;
+    /* height:40%; */
+    left: 22%;
+    /* z-index: -1; */
+        z-index: -1;
+}
+@media only screen and (max-width: 550px) {
+   
+    .watchev{
+        flex-direction: column;
+        text-align: center;
+    }
+}

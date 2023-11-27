@@ -1,0 +1,185 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+
+    
+}
+.shadow1{
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.shadow{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.hero img{
+    height: 95vh;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.25) translateY(-10%);
+    
+    
+}
+.hero{
+    text-align: center;
+}
+.content{
+    /* color: white;
+    position: absolute;
+    top: calc( 10% - 3rem );
+    margin: auto;
+    max-width: calc( 100% - 3rem );
+    text-align: center; */
+    color: white;
+    position: absolute;
+    top: 50%; /* Vertically center the content */
+    left: 50%; /* Horizontally center the content */
+    transform: translate(-50%, -50%); /* Center the content using translate */
+    max-width: calc(100% - 3rem);
+    text-align: center;
+    width: 80%;
+}
+.content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0px;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0px;
+    margin: 1rem 0 0;
+    
+}
+.content h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.inputdata{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+a:-webkit-any-link  {
+    text-decoration: none;
+}
+.default{
+    /* width: 25%;
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-property: top, font-size, line-height;
+    transition-duration: 250ms;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    left: 14.3rem;
+    right: -3rem;
+    top: 11.8rem; */
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+    /* line-height: 1.5; */
+    position: relative;
+    /* z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-property: top, font-size, line-height;
+    transition-duration: 250ms;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1); */
+    left: -7.5rem;
+     /* right: 0rem; */
+    top: -3.2rem;
+}
+.inputdata input {
+    background-color: transparent; /* Transparent background */
+    border: 1px solid #e50914; /* Red border, similar to Netflix */
+    color: white; /* Text color */
+    width:300px; /* Take up the full width of the container */
+    margin-right: 10px; /* Add spacing between the input and button */
+    /* color: inherit; */
+    /* filter: opacity(100%); */
+    padding: .8rem 1rem 1.5rem;
+    /* padding: 1.9rem 1rem; */
+    padding-top: 30px;
+    padding-bottom: 8px;
+  }
+  .inputdata div{
+    height: 55px;
+    width: min-content;
+  }
+    
+  .inputdata button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    width: 13rem;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    border-color: rgba(0, 0, 0, 0);
+  }
+  .inputdata button:hover{
+    transition: .3s;
+    background-color: #c70c15;
+  }
+  /* input{
+    width: 10%;
+    color: inherit;
+    filter: opacity(100%);
+    padding: 1.5rem 1rem 1.5rem;
+  } */
+  @media only screen and (max-width: 550px) {
+    html {
+      font-size: 60%;
+    }
+    .inputdata{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .inputdata input {
+        width: 255px;
+    }
+    .default {
+        font-size: 1.2rem;
+        left: -.3rem;
+        top: -4.199999999999999rem;
+    }
+    .inputdata button {
+        width: 14rem;
+    }
+    .inputdata a{
+        margin-top: 10px;
+    }
+    .hero img{
+        height: 90vh;
+        width: 80%; 
+    }
+
+    
+}
+
+  
+
+ 

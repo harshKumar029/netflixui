@@ -1,0 +1,56 @@
+.ontv{
+    display: flex;
+    justify-content: center;
+    /* background-color: #000000; */
+    position: relative;
+    /* top: -150px; */
+    padding-top: 80px;
+    padding-bottom: 60px;
+    border-top: solid rgb(35,35,35);
+    border-width: 8px;
+}
+.tvimg{
+    text-align: center;
+    position: relative;
+    
+}
+.tvimg img{
+    width: 90%;
+    /* z-index: 1; */
+
+}
+.ontv-content{
+    z-index: 1;
+    align-self: center;
+}
+.ontv-content h2{
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.ontv-content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+    margin-top: 1rem;
+}
+.tvimg video{
+ 
+    top: 6rem;
+    /* right: 350px; */
+    position: absolute;
+    width:60%;
+    /* height:40%; */
+    left: 19%;
+    /* z-index: -1; */
+        z-index: -1;
+}
+@media only screen and (max-width: 550px) {
+   
+    .ontv{
+        flex-direction: column;
+        text-align: center;
+    }
+}

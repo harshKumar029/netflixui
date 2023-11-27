@@ -1,0 +1,35 @@
+.kidsp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-top: solid rgb(35,35,35);
+    border-width: 8px;
+}
+.kidspimg img{
+    width: 36rem;
+}
+.kidsp-content{
+    align-self: center;
+}
+.kidsp-content h2{
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.kidsp-content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 550px) {
+   
+    .kidsp{
+        flex-direction: column;
+        text-align: center;
+    }
+}

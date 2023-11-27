@@ -1,0 +1,114 @@
+/* NetflixUI.css */
+
+.netflix-ui {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header {
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center;
+    padding: 0px 40px;
+    background-color: transparent;
+  }
+  
+  .netflix-logo {
+    width: 150px;
+    height: auto;
+  }
+  .header h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+    cursor: pointer;
+    margin: 0px;
+    
+  }
+  
+  .main-content {
+    padding: 20px 40px;
+    display: flex;
+
+  }
+  
+  .movie {
+    /* display: flex; */
+    margin-bottom: 40px;
+    /* margin-right: 10px; */
+  }
+  
+
+  .movie-container {
+    /* height: 400px; */
+    overflow-y:scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .movie {
+    flex: 0 0 auto;
+    width: 200px; /* Set your desired card width */
+  }
+  
+  /* Rest of your styles for .movie-image and other elements */
+  .movie-container::-webkit-scrollbar {
+    width: 0px; /* Set scrollbar width to 0px */
+  }
+  
+  /* For Firefox */
+  .movie-container {
+    scrollbar-width: none;
+  }
+    
+  
+  .movie-image {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+    /* padding-top: 20px; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); */
+    transition: transform 0.4s;
+  }
+  
+  .movie-image:hover {
+    transform: scale(1.1); /* Adjust the scale factor as desired */
+  }
+  
+  
+  .movie-info {
+    margin-left: 20px;
+    flex: 1;
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .movie-description {
+    font-size: 16px;
+  }
+  
+  .play-button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .play-button:hover {
+    background-color: #ff3d24;
+  }
+  
