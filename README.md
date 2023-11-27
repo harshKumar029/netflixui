@@ -14,7 +14,7 @@ Api
 
 ### Demo
 Check out the live demo.
-[Netflix Clone UI Design](https://netflix-clone-ui-design.netlify.app/)
+[Netflix Clone UI Design Link](https://netflix-clone-ui-design.netlify.app/)
 
 
 ### Getting Started
