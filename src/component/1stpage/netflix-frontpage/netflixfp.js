@@ -8,7 +8,7 @@ const netflixfp = () => {
       <img src='./assets/img/netflix-background.jpg' alt='' />
       <div className='shadow1'></div>      
       <div className='shadow'></div>
-      <div className='content'>
+      <div className='content'> 
         <h1>Unlimited movies, TV shows and more
         </h1>
         <p>Watch anywhere. Cancel anytime.
