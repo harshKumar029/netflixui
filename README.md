@@ -1,6 +1,8 @@
 # Netflix UI Clone
 This project is a Netflix UI clone created using React.js. It mimics the user interface of the Netflix website.
 
+![UIimage](./public/assets/img/readmeimg.png)
+
 ### Features
 Displays movie and TV show data similar to Netflix.
 Allows users to browse through a collection of movies and TV shows.
