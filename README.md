@@ -9,10 +9,7 @@ Allows users to browse through a collection of movies and TV shows.
 Provides a search functionality to find specific movies or TV shows.
 
 ### Technologies Used
-React.js
-HTML/CSS
-JavaScript
-Api
+Technology Used | REACT JS, JSX, CSS, JavaScript, NETLIFY, API
 
 ### Demo
 Check out the live demo.
