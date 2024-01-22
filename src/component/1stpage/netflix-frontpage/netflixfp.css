@@ -128,7 +128,7 @@ a:-webkit-any-link  {
     color: white;
     border: none;
     width: 13rem;
-    padding: 10px 20px;
+    padding: 12px 20px;
     font-size: 1.5rem;
     margin-left: 10px;
     font-weight: 600;
@@ -167,7 +167,8 @@ a:-webkit-any-link  {
         top: -4.199999999999999rem;
     }
     .inputdata button {
-        width: 14rem;
+        width: 16rem;
+        padding: 8px 20px;
     }
     .inputdata a{
         margin-top: 10px;
