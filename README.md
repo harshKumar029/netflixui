@@ -13,7 +13,7 @@ Technology Used | REACT JS, JSX, CSS, JavaScript, NETLIFY, API
 
 ### Demo
 Check out the live demo.
-[Netflix Clone UI Design Link](https://netflixuiclone-git-main-harsh-kumars-projects-93aba863.vercel.app/)
+[Netflix Clone UI Design Link](https://netflixuiclone-jecbzpb34-harsh-kumars-projects-93aba863.vercel.app/)
 
 
 ### Getting Started
